@@ -1,0 +1,138 @@
+Nov 08, 2026 11:12:20 AM com.blocked.data.ResourceLoader loadSound
+WARNING: Sound resource not found: /sounds/select.wav
+Nov 08, 2026 11:12:20 AM com.blocked.data.ResourceLoader loadSound
+WARNING: Sound resource not found: /sounds/place.wav
+Nov 08, 2026 11:12:20 AM com.blocked.data.ResourceLoader loadSound
+WARNING: Sound resource not found: /sounds/clear.wav
+Nov 08, 2026 11:12:20 AM com.blocked.data.ResourceLoader loadSound
+WARNING: Sound resource not found: /sounds/invalid.wav
+Nov 08, 2026 11:12:20 AM com.blocked.engine.SoundManager <init>
+INFO: SoundManager initialised — select=false place=false clear=false invalid=false
+Nov 08, 2026 11:12:20 AM com.blocked.data.ResourceLoader loadImage
+WARNING: Image resource not found: /images/blocks/blue.png
+Nov 08, 2026 11:12:20 AM com.blocked.data.ResourceLoader loadImage
+WARNING: Image resource not found: /images/blocks/green.png
+Nov 08, 2026 11:12:20 AM com.blocked.data.ResourceLoader loadImage
+WARNING: Image resource not found: /images/blocks/orange.png
+Nov 08, 2026 11:12:20 AM com.blocked.data.ResourceLoader loadImage
+WARNING: Image resource not found: /images/blocks/pink.png
+Nov 08, 2026 11:12:20 AM com.blocked.data.ResourceLoader loadImage
+WARNING: Image resource not found: /images/blocks/purple.png
+Nov 08, 2026 11:12:20 AM com.blocked.data.ResourceLoader loadImage
+WARNING: Image resource not found: /images/blocks/red.png
+Nov 08, 2026 11:12:20 AM com.blocked.data.ResourceLoader loadImage
+WARNING: Image resource not found: /images/blocks/yellow.png
+Nov 08, 2026 11:12:20 AM com.blocked.data.ResourceLoader loadImage
+WARNING: Image resource not found: /images/score/background.png
+Nov 08, 2026 11:12:20 AM com.blocked.data.ResourceLoader loadImage
+WARNING: Image resource not found: /images/slot/background.png
+Nov 08, 2026 11:12:20 AM com.blocked.data.ResourceLoader loadImage
+WARNING: Image resource not found: /images/menu/button.png
+Nov 08, 2026 11:12:20 AM com.blocked.data.ResourceLoader loadImage
+WARNING: Image resource not found: /images/pause/button.png
+Nov 08, 2026 11:12:20 AM com.blocked.data.ResourceLoader loadImage
+WARNING: Image resource not found: /images/resume/button.png
+Nov 08, 2026 11:12:20 AM com.blocked.data.ResourceLoader loadImage
+WARNING: Image resource not found: /images/restart/button.png
+Nov 08, 2026 11:12:20 AM com.blocked.data.ResourceLoader loadImage
+WARNING: Image resource not found: /images/restart/icon.png
+Nov 08, 2026 11:12:20 AM com.blocked.data.ResourceLoader loadImage
+WARNING: Image resource not found: /images/game-over/cross.png
+Nov 08, 2026 11:12:20 AM com.blocked.data.ResourceLoader loadImage
+WARNING: Image resource not found: /images/win/check.png
+Nov 08, 2026 11:12:20 AM com.blocked.data.ResourceLoader loadImage
+WARNING: Image resource not found: /images/best/star.png
+Nov 08, 2026 11:12:20 AM com.blocked.data.ResourceLoader loadImage
+WARNING: Image resource not found: /images/classic/button.png
+Nov 08, 2026 11:12:20 AM com.blocked.data.ResourceLoader loadImage
+WARNING: Image resource not found: /images/time-attack/button.png
+Nov 08, 2026 11:12:20 AM com.blocked.data.ResourceLoader loadImage
+WARNING: Image resource not found: /images/instructions/button.png
+Nov 08, 2026 11:12:20 AM com.blocked.data.ResourceLoader loadImage
+WARNING: Image resource not found: /images/back/button.png
+Nov 08, 2026 11:12:20 AM com.blocked.data.ResourceLoader loadImage
+WARNING: Image resource not found: /images/exit/button.png
+Nov 08, 2026 11:12:20 AM com.blocked.data.ResourceLoader loadImage
+WARNING: Image resource not found: /images/mute/button.png
+Nov 08, 2026 11:12:20 AM com.blocked.data.ResourceLoader loadImage
+WARNING: Image resource not found: /images/play/icon.png
+Nov 08, 2026 11:12:20 AM com.blocked.data.ResourceLoader loadFont
+WARNING: Font resource not found: /fonts/Kenney Future Narrow.ttf
+Nov 08, 2026 11:12:24 AM com.blocked.engine.GameEngine setModeSelectState
+INFO: Navigated to mode select.
+Nov 08, 2026 11:12:26 AM com.blocked.engine.GameEngine startGame
+INFO: Game started: mode=CLASSIC
+Nov 08, 2026 11:13:04 AM com.blocked.engine.GameEngine triggerGameOver
+INFO: Game over. score=41 best=41
+Nov 08, 2026 11:13:12 AM com.blocked.engine.GameEngine goToMenu
+INFO: Returned to menu.
+Nov 08, 2026 11:13:14 AM com.blocked.engine.GameEngine setInstructionsState
+INFO: Navigated to instructions.
+Nov 08, 2026 11:13:16 AM com.blocked.engine.GameEngine goToMenu
+INFO: Returned to menu.
+Nov 08, 2026 11:13:21 AM com.blocked.data.ResourceLoader loadSound
+WARNING: Sound resource not found: /sounds/select.wav
+Nov 08, 2026 11:13:21 AM com.blocked.data.ResourceLoader loadSound
+WARNING: Sound resource not found: /sounds/place.wav
+Nov 08, 2026 11:13:21 AM com.blocked.data.ResourceLoader loadSound
+WARNING: Sound resource not found: /sounds/clear.wav
+Nov 08, 2026 11:13:21 AM com.blocked.data.ResourceLoader loadSound
+WARNING: Sound resource not found: /sounds/invalid.wav
+Nov 08, 2026 11:13:21 AM com.blocked.engine.SoundManager <init>
+INFO: SoundManager initialised — select=false place=false clear=false invalid=false
+Nov 08, 2026 11:13:21 AM com.blocked.data.ResourceLoader loadImage
+WARNING: Image resource not found: /images/blocks/blue.png
+Nov 08, 2026 11:13:21 AM com.blocked.data.ResourceLoader loadImage
+WARNING: Image resource not found: /images/blocks/green.png
+Nov 08, 2026 11:13:21 AM com.blocked.data.ResourceLoader loadImage
+WARNING: Image resource not found: /images/blocks/orange.png
+Nov 08, 2026 11:13:21 AM com.blocked.data.ResourceLoader loadImage
+WARNING: Image resource not found: /images/blocks/pink.png
+Nov 08, 2026 11:13:21 AM com.blocked.data.ResourceLoader loadImage
+WARNING: Image resource not found: /images/blocks/purple.png
+Nov 08, 2026 11:13:21 AM com.blocked.data.ResourceLoader loadImage
+WARNING: Image resource not found: /images/blocks/red.png
+Nov 08, 2026 11:13:21 AM com.blocked.data.ResourceLoader loadImage
+WARNING: Image resource not found: /images/blocks/yellow.png
+Nov 08, 2026 11:13:21 AM com.blocked.data.ResourceLoader loadImage
+WARNING: Image resource not found: /images/score/background.png
+Nov 08, 2026 11:13:21 AM com.blocked.data.ResourceLoader loadImage
+WARNING: Image resource not found: /images/slot/background.png
+Nov 08, 2026 11:13:21 AM com.blocked.data.ResourceLoader loadImage
+WARNING: Image resource not found: /images/menu/button.png
+Nov 08, 2026 11:13:21 AM com.blocked.data.ResourceLoader loadImage
+WARNING: Image resource not found: /images/pause/button.png
+Nov 08, 2026 11:13:21 AM com.blocked.data.ResourceLoader loadImage
+WARNING: Image resource not found: /images/resume/button.png
+Nov 08, 2026 11:13:21 AM com.blocked.data.ResourceLoader loadImage
+WARNING: Image resource not found: /images/restart/button.png
+Nov 08, 2026 11:13:21 AM com.blocked.data.ResourceLoader loadImage
+WARNING: Image resource not found: /images/restart/icon.png
+Nov 08, 2026 11:13:21 AM com.blocked.data.ResourceLoader loadImage
+WARNING: Image resource not found: /images/game-over/cross.png
+Nov 08, 2026 11:13:21 AM com.blocked.data.ResourceLoader loadImage
+WARNING: Image resource not found: /images/win/check.png
+Nov 08, 2026 11:13:21 AM com.blocked.data.ResourceLoader loadImage
+WARNING: Image resource not found: /images/best/star.png
+Nov 08, 2026 11:13:21 AM com.blocked.data.ResourceLoader loadImage
+WARNING: Image resource not found: /images/classic/button.png
+Nov 08, 2026 11:13:21 AM com.blocked.data.ResourceLoader loadImage
+WARNING: Image resource not found: /images/time-attack/button.png
+Nov 08, 2026 11:13:21 AM com.blocked.data.ResourceLoader loadImage
+WARNING: Image resource not found: /images/instructions/button.png
+Nov 08, 2026 11:13:21 AM com.blocked.data.ResourceLoader loadImage
+WARNING: Image resource not found: /images/back/button.png
+Nov 08, 2026 11:13:21 AM com.blocked.data.ResourceLoader loadImage
+WARNING: Image resource not found: /images/exit/button.png
+Nov 08, 2026 11:13:21 AM com.blocked.data.ResourceLoader loadImage
+WARNING: Image resource not found: /images/mute/button.png
+Nov 08, 2026 11:13:21 AM com.blocked.data.ResourceLoader loadImage
+WARNING: Image resource not found: /images/play/icon.png
+Nov 08, 2026 11:13:21 AM com.blocked.data.ResourceLoader loadFont
+WARNING: Font resource not found: /fonts/Kenney Future Narrow.ttf
+Nov 08, 2026 11:13:23 AM com.blocked.engine.GameEngine setModeSelectState
+INFO: Navigated to mode select.
+Nov 08, 2026 11:13:24 AM com.blocked.engine.GameEngine startGame
+INFO: Game started: mode=TIME_ATTACK
+Nov 08, 2026 11:14:00 AM com.blocked.engine.GameEngine triggerGameOver
+INFO: Game over. score=44 best=44

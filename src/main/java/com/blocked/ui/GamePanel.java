@@ -68,7 +68,7 @@ public class GamePanel extends JPanel {
     /** Score panel sits to the right of the board. */
     public static final int SCORE_PANEL_X = 570;
     public static final int SCORE_PANEL_W = 280;
-    public static final int SCORE_PANEL_H = 270;
+    public static final int SCORE_PANEL_H = ;
 
     /** Size of a cell when a piece is drawn "in hand" at the cursor. */
     private static final int DRAG_GHOST_CELL = 28;
@@ -702,17 +702,11 @@ public class GamePanel extends JPanel {
     // =========================================================================
 
     private void drawMuteIndicator(Graphics2D g2) {
-        int w = 56;
-        int h = 38;
+        int w = 110;
+        int h = 36;
         int x = WINDOW_WIDTH - w - 14;
         int y = 12;
-        drawButton(g2, imgMute, "MUTE", x, y, w, h);
-        if (engine.isMuted()) {
-            g2.setColor(Color.RED);
-            g2.setStroke(new BasicStroke(3));
-            g2.drawLine(x + 6, y + 6, x + w - 6, y + h - 6);
-            g2.setStroke(new BasicStroke(1));
-        }
+        muteRect = drawButton(g2, imgMute, engine.isMuted()?"UNMUTE":"MUTE", x, y,w, h);
     }
 
     // =========================================================================
@@ -725,6 +719,10 @@ public class GamePanel extends JPanel {
      * mouse adapter after the engine has processed the press.
      */
     public void handleClick(int x, int y, GameEngine engine) {
+        if(muteRect!=null&& muteRect.contains(x, y)) {
+            engine.toggleMute();
+            return;
+        }
         GameState state = engine.getGameState();
         switch (state) {
             case MENU:
@@ -783,7 +781,8 @@ public class GamePanel extends JPanel {
      */
     private Rectangle drawButton(Graphics2D g2, BufferedImage img, String label,
                                   int x, int y, int w, int h) {
-        if (img != null) {
+                                    Color.textColor = Color.WHITE;
+         if (img != null) {
             int iw = img.getWidth();
             int ih = img.getHeight();
             double scale = Math.min((double) w / iw, (double) h / ih);
@@ -792,6 +791,9 @@ public class GamePanel extends JPanel {
             int dx = x + (w - dw) / 2;
             int dy = y + (h - dh) / 2;
             g2.drawImage(img, dx, dy, dw, dh, null);
+            int rgb= img.getRGB(iw/2, ih/3);
+            int lum=(((rgb>>16)&0xff)*299+(((rgb>>8)&0xff)*587)+((rgb&0xff)*114))/1000;
+            textColor=lum>150 ? new Color(0x1a1a2e):Color.WHITE;
         } else {
             g2.setColor(new Color(0x16213e));
             g2.fillRoundRect(x, y, w, h, 12, 12);
@@ -799,6 +801,8 @@ public class GamePanel extends JPanel {
             g2.drawRoundRect(x, y, w, h, 12, 12);
             drawCenteredStringInRect(g2, label, x, y, w, h, labelFont, Color.WHITE);
         }
+        Font f=(h< 40)?smallFont:labelFont;
+        drawCenteredStringInRect(g2, label, x, y-2, w, h,f,textColor);
         return new Rectangle(x, y, w, h);
     }
 
